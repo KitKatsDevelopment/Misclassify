@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Misclassify — Minecraft Community Moderator</title>
+<meta name="description" content="Portfolio of Misclassify — experienced Minecraft community moderator and Discord staff member. Staff history and community vouches." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23151a21'/><rect x='22' y='30' width='56' height='14' rx='4' fill='%2334d399'/><rect x='22' y='52' width='56' height='14' rx='4' fill='%23e8edf2'/></svg>" />
+</head>
+<body>
+
+<!-- ── Header ───────────────────────────────────────────── -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Misclassify</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#experience">Experience</a>
+      <a href="#vouches">Vouches</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ── Hero ───────────────────────────────────────────── -->
+  <section class="hero">
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="wrap hero-inner">
+      <img
+        class="hero-avatar reveal"
+        src="https://cdn.discordapp.com/avatars/787525664809943071/ea9f7f7da3ff62aba32dc245c8453816.png?size=4096"
+        alt="Misclassify's Discord profile picture"
+        width="104"
+        height="104"
+        loading="eager"
+        decoding="async"
+      />
+      <p class="eyebrow reveal">Minecraft &middot; Discord &middot; Community</p>
+      <h1 class="reveal">
+        <span class="accent-pill" aria-hidden="true"></span>
+        Misclassify
+      </h1>
+      <p class="lede reveal">
+        Minecraft community moderator with a track record of keeping servers
+        clean, players happy, and support tickets handled. Trusted by owners
+        across survival, SMP, and network communities.
+      </p>
+
+      <div class="hero-actions reveal">
+        <a class="btn btn-primary" href="#vouches">Read vouches</a>
+        <a class="btn btn-ghost" href="#experience">View staff history</a>
+      </div>
+
+      <dl class="stats reveal" id="stats">
+        <!-- rendered by script.js -->
+      </dl>
+    </div>
+  </section>
+
+  <!-- ── Experience ─────────────────────────────────────── -->
+  <section class="section" id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Staff Experience</h2>
+        <p>Every community I've held a rank in, most recent roles still active.</p>
+      </div>
+      <ol class="timeline" id="timeline">
+        <!-- rendered by script.js -->
+      </ol>
+    </div>
+  </section>
+
+  <!-- ── Vouches ────────────────────────────────────────── -->
+  <section class="section section-alt" id="vouches">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2>Vouches</h2>
+        <p>Words from server owners, staff teams, and community members &mdash; click a quote to see the screenshot.</p>
+      </div>
+      <div class="vouch-viewer reveal">
+        <div class="vouch-carousel">
+          <button class="vouch-arrow" id="vouch-prev" type="button" aria-label="Previous vouches">&larr;</button>
+          <div class="vouch-window" id="vouch-stage">
+            <!-- rendered by script.js -->
+          </div>
+          <button class="vouch-arrow" id="vouch-next" type="button" aria-label="Next vouches">&rarr;</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Contact ────────────────────────────────────────── -->
+  <section class="section" id="contact">
+    <div class="wrap">
+      <div class="contact-card reveal">
+        <div>
+          <h2>Looking for staff?</h2>
+          <p>
+            I'm open to moderation, support, and community management roles on
+            Minecraft servers and Discord networks. Reach out and I'll reply.
+          </p>
+        </div>
+        <div class="contact-actions">
+          <button class="btn btn-primary" id="copy-discord" type="button">
+            <span id="copy-label">Copy Discord</span>
+          </button>
+          <a class="btn btn-ghost" id="discord-link" href="#">Message me on Discord</a>
+        </div>
+      </div>
+      <p class="fineprint">
+        <span id="handle-line"></span>
+      </p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-inner">
+    <span>&copy; <span id="year">2026</span> Misclassify</span>
+    <span class="dot" aria-hidden="true"></span>
+    <span>Minecraft community moderation portfolio</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
